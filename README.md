@@ -4,6 +4,11 @@ Here I highlight different algorithms I have implemented in both python and C++.
 ## Codes
 ### Python
 Least squares regression
+Forward Euler
+Plotting
 
 ### C++
 Monte_carlo.cpp
+Thomas_algorithm.cpp
+
+
