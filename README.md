@@ -8,7 +8,6 @@ Forward Euler
 Plotting
 
 ### C++
-Monte_carlo.cpp
-Thomas_algorithm.cpp
+Schroedinger
 
 
