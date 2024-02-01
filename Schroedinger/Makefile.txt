@@ -1,0 +1,16 @@
+CFLAGS = -std=c++11 -c
+
+all: compile link run clean
+
+compile:
+	g++ $(CFLAGS) src/Schroedinger_N_C_Class.cpp -I include
+	g++ $(CFLAGS) src/main.cpp -I include
+
+
+link:
+	g++ Schroedinger_N_C_Class.o main.o -o main.exe -larmadillo -lsuperlu
+
+run:
+
+clean:
+	rm -f *.o
