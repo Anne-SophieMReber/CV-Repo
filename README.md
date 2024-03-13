@@ -6,3 +6,4 @@ Here I highlight different algorithms I have implemented in both python and C++.
 See README file in folder for more information. This was a collaboration between me and two other students. They created the potential function, the animation plotting in python and some lines inbetween. Includes mostly c++ code but also python code for plotting.
 
 
+### Sound wave simulation
