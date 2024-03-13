@@ -14,4 +14,4 @@ See README file in folder for more information. This was a collaboration between
 This is originally a jupyter notebook on simulating soundwaves by solving the wave equation in two dimensions. The project was intended to look at how sound spread in a room and includes animations of the solution in 2d and 3d plots. The whole project was written in Python and the text added in markdown.
 
 ### Charged particles:
-Originally a jupyter notebook on simulating charged particles interacting with different electrical fields. A simple Forward-Euler algorithm.
+Originally a jupyter notebook on simulating charged particles interacting with different electrical fields. A simple Forward-Euler algorithm. Created with another student who did the theoretical aspect as I did all the coding.
