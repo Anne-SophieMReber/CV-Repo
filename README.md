@@ -1,5 +1,5 @@
 # CV-Repo
-Here I highlight different algorithms I have implemented in both python and C++. This is repo is linked to in my CV. All different projects are in different folders.
+Here I highlight different algorithms I have implemented in both python and C++. This is repo is linked to in my CV. All projects are in different folders.
 
 ## Codes
 ### Schroedinger:
