@@ -62,21 +62,3 @@ plt.show()
 plt.plot(x_pos, phi_evolution[::,9600:10000:200], "o-")
 plt.grid()
 plt.show()
-
-# solving without dense time output
-# sol = solve_ivp(oscilatting_system, [0, 5], y0= z_int, t_eval = [0,0.25,0.5,1,2.5,5], first_step=dt)
-# momentum_evolution = sol.y[:15,:]
-# phi_evolution = sol.y[15::,:]
-
-
-# plt.plot(x_pos, momentum_evolution[:,0], 'o')
-# plt.plot(x_pos, momentum_evolution[:,1], 'o')
-# plt.plot(x_pos, momentum_evolution[:,2], 'o')
-# plt.plot(x_pos, momentum_evolution[:,3], 'o')
-# plt.show()
-# plt.plot(x_pos, phi_evolution[:,0], 'o-', label = "0s")
-# plt.plot(x_pos, phi_evolution[:,1], 'o-', label = "0.25s")
-# plt.plot(x_pos, phi_evolution[:,2], 'o-', label = "0.5s")
-# plt.plot(x_pos, phi_evolution[:,3], 'o-', label = "1s")
-# plt.legend()
-# plt.show()
