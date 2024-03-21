@@ -2,12 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import solve_ivp
 
-#set variables as in question
+#set variables as in problem
 m = 0.1 #kg
 k = 2 #kg/s^2
 alpha = 4 #kg/s^2
-##timesteps = 3000
-#dt = 0.01
 
 #set initial conditions, postition is 0 everywhere, momentum is 0 everywhere but [0] = 0.1
 phi_int = np.zeros((15))
@@ -25,11 +23,11 @@ def oscilatting_system(t, z):
 
     phi[0] = z[15] #taking out phi values from z
     phi[-1] = z[-1] #taking out phi values from z
+    
     #Calculate time derivative of momentum
     mom_update = np.zeros(15)
     for i in range(len(momentum)):
         mom_update[i] = -1*(k*phi[i+1]+alpha*(2*phi[i+1]-phi[i]-phi[i+2])) #version without counting twice
-        # mom_update[i] = -1*(k*phi[i+1]+2*alpha*(2*phi[i+1]-phi[i]-phi[i+2]))
 
     #Calculate time derivative of postition in phi direction
     phi_update = momentum/m
