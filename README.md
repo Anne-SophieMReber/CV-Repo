@@ -9,7 +9,7 @@ See README file in folder for more information. This was a collaboration between
 
 ### Python:
 
-#### ODE_with_scipy
+### ODE_with_scipy
 Solving coupled Hamiltons equations with scipy_solve_ivp function.
 
 #### Written in Norwegian:
