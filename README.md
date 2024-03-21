@@ -9,6 +9,9 @@ See README file in folder for more information. This was a collaboration between
 
 ### Python:
 
+#### ODE_with_scipy
+Solving coupled Hamiltons equations with scipy_solve_ivp function.
+
 #### Written in Norwegian:
 ### Soundwave:
 This is originally a jupyter notebook on simulating soundwaves by solving the wave equation in two dimensions. The project was intended to look at how sound spread in a room and includes animations of the solution in 2d and 3d plots. The whole project was written in Python and the text added in markdown.
