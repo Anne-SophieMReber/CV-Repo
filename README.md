@@ -10,7 +10,7 @@ See README file in folder for more information. This was a collaboration between
 ### Python:
 
 ### ODE_with_scipy
-Solving coupled Hamiltons equations with scipy_solve_ivp function.
+Solving coupled Hamiltons equations with scipy_solve_ivp function with plots.
 
 #### Written in Norwegian:
 ### Soundwave:
